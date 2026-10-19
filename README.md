@@ -28,6 +28,10 @@ A campaign can bring plenty of visitors without producing valuable sales. Likewi
 
 In a real business setting, I'd want to connect campaign spend to attributable orders and contribution margin before recommending a budget change.
 
+## Reproduce the KPI comparisons
+
+I added a [Python KPI script](python/compare_performance.py) and [analysis notes](docs/KPI_ANALYSIS.md). The script keeps sales and marketing results separate because the datasets do not establish campaign-to-order attribution. The code still needs to be run and its outputs checked.
+
 ## Explore the files
 
 | Area | Dataset | Dashboard |
