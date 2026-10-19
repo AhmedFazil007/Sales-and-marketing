@@ -46,10 +46,31 @@ This project analyzes sales performance and marketing campaign effectiveness usi
 
 ## 📷 Dashboard Preview
 
-(Add your screenshots here)
+![Sales dashboard](assets/Sales%20analysis.png)
+
+![Marketing dashboard](assets/Marketing.png)
 
 ---
 
 ## 🚀 Outcome
 
 This project demonstrates strong analytical skills in data cleaning, KPI calculation, and business insight generation using real-world datasets.
+
+
+## Repository files
+
+### assets/
+
+- [Marketing.png](assets/Marketing.png)
+- [Sales analysis.png](assets/Sales%20analysis.png)
+
+### powerbi/
+
+- [Marketing Campaign.pbix](powerbi/Marketing%20Campaign.pbix)
+- [Sales Performance.pbix](powerbi/Sales%20Performance.pbix)
+
+### data/
+
+- [marketing_dataset.xlsx](data/marketing_dataset.xlsx)
+- [sales_dataset.xlsx](data/sales_dataset.xlsx)
+
