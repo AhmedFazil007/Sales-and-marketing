@@ -2,7 +2,7 @@
 
 **Excel · Power BI · Sales performance · Campaign measurement**
 
-I put two related questions together in this project: **Where are sales coming from, and how can marketing performance be evaluated beyond clicks and impressions?**
+I looked at sales and marketing side by side, starting with two questions: **Where are sales coming from, and how can marketing performance be evaluated beyond clicks and impressions?**
 
 The repository contains two dashboards and their Excel datasets—one for sales performance and one for marketing campaigns. I wanted to show how commercial reporting and marketing measurement can support each other, while keeping their KPIs distinct.
 
@@ -30,7 +30,7 @@ In a real business setting, I'd want to connect campaign spend to attributable o
 
 ## Reproduce the KPI comparisons
 
-I added a [Python KPI script](python/compare_performance.py) and [analysis notes](docs/KPI_ANALYSIS.md). The script keeps sales and marketing results separate because the datasets do not establish campaign-to-order attribution. The code still needs to be run and its outputs checked.
+For reproducibility, there's a [Python KPI script](python/compare_performance.py) and [analysis notes](docs/KPI_ANALYSIS.md). The script keeps sales and marketing results separate because the datasets do not establish campaign-to-order attribution. The code still needs to be run and its outputs checked.
 
 ## Explore the files
 
