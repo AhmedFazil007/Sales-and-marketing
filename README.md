@@ -1,76 +1,44 @@
-# 📊 Sales & Marketing Analytics Dashboard
+# Sales & Marketing Analytics
 
-## 🔍 Overview
+**Excel · Power BI · Sales performance · Campaign measurement**
 
-This project analyzes sales performance and marketing campaign effectiveness using Excel and Power BI to derive actionable business insights.
+I put two related questions together in this project: **Where are sales coming from, and how can marketing performance be evaluated beyond clicks and impressions?**
 
----
+The repository contains two dashboards and their Excel datasets—one for sales performance and one for marketing campaigns. I wanted to show how commercial reporting and marketing measurement can support each other, while keeping their KPIs distinct.
 
-## 🛠 Tools Used
+## Sales dashboard
 
-* Excel (Data Cleaning & KPI Calculation)
-* Power BI (Data Visualization & Dashboard)
+![Sales analysis](assets/Sales%20analysis.png)
 
----
+The sales dataset contains roughly **9,000 records**. In the analysis, total sales were over **$2 million**, the **West region** had the largest contribution, and **Technology** stood out among the categories.
 
-## 📂 Datasets
+**What I'd investigate next:** Compare sales with profit, discounts and product mix before deciding which regions or categories deserve more investment.
 
-* Sales dataset (~9,000 records)
-* Marketing campaign dataset (~5,000 records)
+## Marketing dashboard
 
----
+![Marketing campaign analysis](assets/Marketing.png)
 
-## 📊 Sales Insights
+The campaign dataset contains roughly **5,000 records**. I used metrics such as **click-through rate (CTR), conversion rate and cost per acquisition (CPA)** to compare campaign efficiency.
 
-* Identified total revenue of ~$2M+ with the West region contributing the highest share
-* Technology category emerged as the top-performing segment
-* Detected underperforming regions requiring strategic improvement
+**What I'd investigate next:** Look at channels with stronger conversion efficiency and test whether changing budget allocation improves actual conversions—not just traffic.
 
----
+## Why these two analyses belong together
 
-## 📢 Marketing Insights
+A campaign can bring plenty of visitors without producing valuable sales. Likewise, a high-revenue category isn't always the most profitable. Looking at sales and marketing side by side makes it easier to ask whether activity is translating into results.
 
-* Evaluated campaign performance using CTR, Conversion Rate, and CPA
-* Identified high-performing channels with better conversion efficiency
-* Recommended budget reallocation to optimize ROI
+In a real business setting, I'd want to connect campaign spend to attributable orders and contribution margin before recommending a budget change.
 
----
+## Explore the files
 
-## 📈 Key Features
+| Area | Dataset | Dashboard |
+|---|---|---|
+| Sales | [sales_dataset.xlsx](data/sales_dataset.xlsx) | [Sales Performance.pbix](powerbi/Sales%20Performance.pbix) |
+| Marketing | [marketing_dataset.xlsx](data/marketing_dataset.xlsx) | [Marketing Campaign.pbix](powerbi/Marketing%20Campaign.pbix) |
 
-* Interactive dashboards with filters (Region, Category, Channel)
-* KPI tracking for sales, profit, CTR, and conversions
-* Clear visualization of trends and performance metrics
+## A note on impact
+
+This is an analytics portfolio exercise. The dashboards highlight patterns and possible decisions; they don't show that a company implemented the recommendations or achieved a verified increase in sales or marketing ROI.
 
 ---
 
-## 📷 Dashboard Preview
-
-![Sales dashboard](assets/Sales%20analysis.png)
-
-![Marketing dashboard](assets/Marketing.png)
-
----
-
-## 🚀 Outcome
-
-This project demonstrates strong analytical skills in data cleaning, KPI calculation, and business insight generation using real-world datasets.
-
-
-## Repository files
-
-### assets/
-
-- [Marketing.png](assets/Marketing.png)
-- [Sales analysis.png](assets/Sales%20analysis.png)
-
-### powerbi/
-
-- [Marketing Campaign.pbix](powerbi/Marketing%20Campaign.pbix)
-- [Sales Performance.pbix](powerbi/Sales%20Performance.pbix)
-
-### data/
-
-- [marketing_dataset.xlsx](data/marketing_dataset.xlsx)
-- [sales_dataset.xlsx](data/sales_dataset.xlsx)
-
+[Ahmed Fazil](https://github.com/AhmedFazil007)
